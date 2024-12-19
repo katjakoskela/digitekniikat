@@ -81,6 +81,68 @@ section {
   color: #2b3e4d;
 }
 
+/* Yleinen haitarin tyyli */
+.accordion {
+  border: 1px solid #bdd6e7; /* Vaaleansininen reunus */
+  border-radius: 8px; /* Pehmeä pyöristys */
+  overflow: hidden; /* Sisältö ei mene ulkopuolelle */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hento varjo */
+  background-color: #f9fbfd; /* Lämmin vaaleansininen tausta */
+}
+
+.accordion-item {
+  border: none; /* Poistetaan oletusreunukset */
+}
+
+.accordion-header {
+  background-color: #e0f0f9; /* Vaaleansininen otsikkoalue */
+  padding: 12px 16px; /* Lisätään mukava sisennys */
+  cursor: pointer; /* Kursorin vaihto osoittaa klikattavuutta */
+  font-size: 1.1rem; /* Hiukan isompi fonttikoko */
+  font-weight: bold;
+  color: #1d3b57; /* Tumma sininen teksti */
+  border-bottom: 1px solid #bdd6e7; /* Otsikoiden väliin linja */
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #d1e6f3; /* Hover-efekti: hieman tummempi sininen */
+}
+
+.accordion-button {
+  background-color: transparent; /* Ei ylimääräisiä taustoja */
+  color: inherit; /* Säilytetään peritty tekstiväri */
+  border: none; /* Ei ylimääräisiä reunuksia */
+  text-align: left; /* Teksti vasemmalle */
+  padding: 0; /* Poistetaan oletustyylit */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #bdd6e7; /* Korostus avatulle kohdalle */
+  color: #fff; /* Valkoinen teksti */
+  border-bottom: 1px solid #a0b8cc; /* Vaaleampi erotinlinja */
+}
+
+.accordion-body {
+  padding: 16px; /* Sisällölle mukavasti tilaa */
+  background-color: #f9fbfd; /* Tausta säilyy pehmeän sinisenä */
+  font-size: 1rem; /* Mukava tekstin luettavuus */
+  color: #2f3c56; /* Tummanharmaa, helposti luettava teksti */
+  line-height: 1.6; /* Miellyttävä riviväli */
+  border-top: 1px solid #bdd6e7; /* Erotinlinja kevyesti */
+}
+
+/* Responsiivisuus pienille näytöille */
+@media (max-width: 767px) {
+  .accordion-header {
+    font-size: 1rem; /* Hiukan pienempi fontti mobiilille */
+  }
+
+  .accordion-body {
+    padding: 12px; /* Vähemmän tilaa pienillä näytöillä */
+  }
+}
+
 footer {
   background-color: #2b3e4d;
   color: #ffffff;

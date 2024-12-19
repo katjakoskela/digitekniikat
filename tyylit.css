@@ -115,7 +115,7 @@ section {
 
 .accordion-button:not(.collapsed) {
   background-color: #7ab6d6!important; /* Korostus avatulle kohdalle, tummempi sininen */
-  color: #fff!important; /* Valkoinen teksti */
+  color: #1d3b57!important; /* Valkoinen teksti */
   border-bottom: 1px solid #5f8ea0!important; /* Tummempi erotinlinja */
 }
 

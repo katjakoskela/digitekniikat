@@ -1,209 +1,205 @@
 /* Yleinen tyylitiedosto */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #e9f5fc; /* Vaaleampi ja rauhoittava taustaväri */
-  color: #2b3e4d; /* Tumma, mutta pehmeä väri tekstille */
-  margin: 0;
-  padding: 0;
-  line-height: 1.6; /* Parempi luettavuus */
+  font-family: 'Arial', sans-serif!important;
+  background-color: #e9f5fc!important; /* Vaaleampi ja rauhoittava taustaväri */
+  color: #2b3e4d!important; /* Tumma, mutta pehmeä väri tekstille */
+  margin: 0!important;
+  padding: 0!important;
+  line-height: 1.6!important; /* Parempi luettavuus */
 }
 
 h1, h2, h3, h4, h5 {
-  color: #10344f; /* Syvempi sininen otsikoille */
-  font-weight: bold;
+  color: #10344f!important; /* Syvempi sininen otsikoille */
+  font-weight: bold!important;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 a:focus, button:focus {
-  outline: 2px dashed #81a8c3; /* Korostus saavutettavuutta varten */
-  outline-offset: 4px;
+  outline: 2px dashed #81a8c3!important; /* Korostus saavutettavuutta varten */
+  outline-offset: 4px!important;
 }
 
 .navbar {
-  background-color: #2b3e4d;
+  background-color: #2b3e4d!important;
 }
 
 .navbar .navbar-brand {
-  color: #ffffff;
-  font-size: 1.8rem;
-  font-weight: bold;
+  color: #ffffff!important;
+  font-size: 1.8rem!important;
+  font-weight: bold!important;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #dce6f1;
-  font-size: 1.1rem;
+  color: #dce6f1!important;
+  font-size: 1.1rem!important;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:focus {
-  color: #ffffff; /* Selkeämpi hover-efekti */
+  color: #ffffff!important; /* Selkeämpi hover-efekti */
 }
 
 section {
-  padding: 60px 15px;
+  padding: 60px 15px!important;
 }
 
 .bg-light {
-  background-color: #edf6fb; /* Hieman vaaleampi tausta */
+  background-color: #edf6fb!important; /* Hieman vaaleampi tausta */
 }
 
 .card {
-  border: none;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  border-radius: 16px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none!important;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15)!important;
+  border-radius: 16px!important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease!important;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px)!important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2)!important;
 }
 
 .card-img-top {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
+  width: 100%!important;
+  height: 250px!important;
+  object-fit: cover!important;
 }
 
 .card-body {
-  background-color: #f1f9ff; /* Hieman vaaleampi ja pehmeä tausta */
+  background-color: #f1f9ff!important; /* Hieman vaaleampi ja pehmeä tausta */
 }
 
 .card-title {
-  color: #0f3054;
-  font-size: 1.3rem;
+  color: #0f3054!important;
+  font-size: 1.3rem!important;
 }
 
 .card-text {
-  color: #2b3e4d;
+  color: #2b3e4d!important;
 }
 
 /* Yleinen haitarin tyyli */
 .accordion {
-  border: 1px solid #bdd6e7; /* Vaaleansininen reunus */
-  border-radius: 8px; /* Pehmeä pyöristys */
-  overflow: hidden; /* Sisältö ei mene ulkopuolelle */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hento varjo */
-  background-color: #f9fbfd; /* Lämmin vaaleansininen tausta */
-}
-
-.accordion-item {
-  border: none; /* Poistetaan oletusreunukset */
+  border: 1px solid #bdd6e7!important; /* Vaaleansininen reunus */
+  border-radius: 8px!important; /* Pehmeä pyöristys */
+  overflow: hidden!important; /* Sisältö ei mene ulkopuolelle */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)!important; /* Hento varjo */
+  background-color: #f9fbfd!important; /* Lämmin vaaleansininen tausta */
 }
 
 .accordion-header {
-  background-color: #e0f0f9; /* Vaaleansininen otsikkoalue */
-  padding: 12px 16px; /* Lisätään mukava sisennys */
-  cursor: pointer; /* Kursorin vaihto osoittaa klikattavuutta */
-  font-size: 1.1rem; /* Hiukan isompi fonttikoko */
-  font-weight: bold;
-  color: #1d3b57; /* Tumma sininen teksti */
-  border-bottom: 1px solid #bdd6e7; /* Otsikoiden väliin linja */
-  transition: background-color 0.3s ease;
+  background-color: #e0f0f9!important; /* Vaaleansininen otsikkoalue */
+  padding: 12px 16px!important; /* Lisätään mukava sisennys */
+  cursor: pointer!important; /* Kursorin vaihto osoittaa klikattavuutta */
+  font-size: 1.1rem!important; /* Hiukan isompi fonttikoko */
+  font-weight: bold!important;
+  color: #1d3b57!important; /* Tumma sininen teksti */
+  border-bottom: 1px solid #bdd6e7!important; /* Otsikoiden väliin linja */
+  transition: background-color 0.3s ease!important;
 }
 
 .accordion-header:hover {
-  background-color: #d1e6f3; /* Hover-efekti: hieman tummempi sininen */
+  background-color: #d1e6f3!important; /* Hover-efekti: hieman tummempi sininen */
 }
 
 .accordion-button {
-  background-color: transparent; /* Ei ylimääräisiä taustoja */
-  color: inherit; /* Säilytetään peritty tekstiväri */
-  border: none; /* Ei ylimääräisiä reunuksia */
-  text-align: left; /* Teksti vasemmalle */
-  padding: 0; /* Poistetaan oletustyylit */
+  background-color: transparent!important; /* Ei ylimääräisiä taustoja */
+  color: inherit!important; /* Säilytetään peritty tekstiväri */
+  border: none!important; /* Ei ylimääräisiä reunuksia */
+  text-align: left!important; /* Teksti vasemmalle */
+  padding: 0!important; /* Poistetaan oletustyylit */
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #bdd6e7; /* Korostus avatulle kohdalle */
-  color: #fff; /* Valkoinen teksti */
-  border-bottom: 1px solid #a0b8cc; /* Vaaleampi erotinlinja */
+  background-color: #bdd6e7!important; /* Korostus avatulle kohdalle */
+  color: #fff!important; /* Valkoinen teksti */
+  border-bottom: 1px solid #a0b8cc!important; /* Vaaleampi erotinlinja */
 }
 
 .accordion-body {
-  padding: 16px; /* Sisällölle mukavasti tilaa */
-  background-color: #f9fbfd; /* Tausta säilyy pehmeän sinisenä */
-  font-size: 1rem; /* Mukava tekstin luettavuus */
-  color: #2f3c56; /* Tummanharmaa, helposti luettava teksti */
-  line-height: 1.6; /* Miellyttävä riviväli */
-  border-top: 1px solid #bdd6e7; /* Erotinlinja kevyesti */
+  padding: 16px!important; /* Sisällölle mukavasti tilaa */
+  background-color: #f9fbfd!important; /* Tausta säilyy pehmeän sinisenä */
+  font-size: 1rem!important; /* Mukava tekstin luettavuus */
+  color: #2f3c56!important; /* Tummanharmaa, helposti luettava teksti */
+  line-height: 1.6!important; /* Miellyttävä riviväli */
+  border-top: 1px solid #bdd6e7!important; /* Erotinlinja kevyesti */
 }
 
 /* Responsiivisuus pienille näytöille */
 @media (max-width: 767px) {
   .accordion-header {
-    font-size: 1rem; /* Hiukan pienempi fontti mobiilille */
+    font-size: 1rem!important; /* Hiukan pienempi fontti mobiilille */
   }
 
   .accordion-body {
-    padding: 12px; /* Vähemmän tilaa pienillä näytöillä */
+    padding: 12px!important; /* Vähemmän tilaa pienillä näytöillä */
   }
 }
 
 footer {
-  background-color: #2b3e4d;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px;
+  background-color: #2b3e4d!important;
+  color: #ffffff!important;
+  text-align: center!important;
+  padding: 20px!important;
 }
 
 footer p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.9rem!important;
 }
 
 img {
-  border-radius: 12px;
+  border-radius: 12px!important;
 }
 
 button {
-  background-color: #5b9ecf;
-  color: #ffffff;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  background-color: #5b9ecf!important;
+  color: #ffffff!important;
+  border: none!important;
+  padding: 12px 24px!important;
+  border-radius: 8px!important;
+  font-size: 1rem!important;
+  cursor: pointer!important;
+  transition: background-color 0.3s ease!important;
 }
 
 button:hover {
-  background-color: #3f89bd;
+  background-color: #3f89bd!important;
 }
 
 #kartta {
-  height: 400px;
-  width: 100%;
-  border-radius: 12px;
-  margin: 20px 0;
+  height: 400px!important;
+  width: 100%!important;
+  border-radius: 12px!important;
+  margin: 20px 0!important;
 }
 
 /* Responsiivisuus */
 @media (max-width: 767px) {
   .navbar-nav {
-    text-align: center;
+    text-align: center!important;
   }
 
   .card {
-    margin-bottom: 20px;
+    margin-bottom: 20px!important;
   }
 
   .navbar .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
   }
 
   .navbar .navbar-nav .nav-link {
-    font-size: 1rem;
+    font-size: 1rem!important;
   }
 
   section {
-    padding: 30px 15px;
+    padding: 30px 15px!important;
   }
 
   footer p {
-    font-size: 0.8rem;
+    font-size: 0.8rem!important;
   }
 }

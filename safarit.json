@@ -1,0 +1,76 @@
+{
+  "husky_safaris": [
+    {
+      "name": "Northern Lights Village Levi",
+      "location": "Levi",
+      "dates": ["2024-12-20", "2024-12-21", "2024-12-22"],
+      "price": {
+        "adult": 159,
+        "child": 129
+      },
+      "duration": "2 hours",
+      "description": "Experience the thrill of a husky sled ride through the snowy landscapes of Levi. Includes winter clothing and hot drinks.",
+      "url": "https://levi.northernlightsvillage.com/experiences/husky"
+    },
+    {
+      "name": "Levi Husky Park",
+      "location": "Levi",
+      "dates": ["2024-12-23", "2024-12-24", "2024-12-25"],
+      "price": {
+        "adult": 180,
+        "child": 140
+      },
+      "duration": "1.5 hours",
+      "description": "Join our huskies for an unforgettable journey through the Arctic landscapes. Includes transfers, winter clothing, and hot drinks.",
+      "url": "https://www.levihuskypark.fi/en"
+    },
+    {
+      "name": "Powerun Adventures",
+      "location": "Ylläs",
+      "dates": ["2024-12-26", "2024-12-27", "2024-12-28"],
+      "price": {
+        "adult": 215,
+        "child": 175
+      },
+      "duration": "3 hours",
+      "description": "Explore the wilderness of Ylläs with our friendly huskies. Includes a visit to the husky kennel and hot drinks.",
+      "url": "https://powerun.fi/"
+    },
+    {
+      "name": "Husky Safari in the Wilderness",
+      "location": "Ylläs",
+      "dates": ["2024-12-29", "2024-12-30", "2024-12-31"],
+      "price": {
+        "adult": 200,
+        "child": 160
+      },
+      "duration": "2.5 hours",
+      "description": "Enjoy a thrilling husky sled ride through the beautiful landscapes of Ylläs. Includes winter clothing and hot drinks.",
+      "url": "https://yllas.fi/en/experience/husky-safari-in-the-wilderness/"
+    },
+    {
+      "name": "Kilpisjärvi Husky Sledding",
+      "location": "Kilpisjärvi",
+      "dates": ["2025-01-02", "2025-01-03", "2025-01-04"],
+      "price": {
+        "adult": 220,
+        "child": 180
+      },
+      "duration": "1.5 hours",
+      "description": "Join our huskies for an exciting adventure through the snowy forests of Kilpisjärvi. Includes winter clothing and hot drinks.",
+      "url": "https://destinationkilpisjarvi.com/en_US/guided-experiences-winter/huskysledding-kilpisjarvi"
+    },
+    {
+      "name": "Experience Kilpisjärvi Huskies",
+      "location": "Kilpisjärvi",
+      "dates": ["2025-01-05", "2025-01-06", "2025-01-07"],
+      "price": {
+        "adult": 230,
+        "child": 190
+      },
+      "duration": "2 hours",
+      "description": "Enjoy a husky sled ride through the stunning landscapes of Kilpisjärvi. Includes winter clothing and hot drinks.",
+      "url": "https://www.visitfinland.com/en/product/2a137153-9457-4509-9d77-f48c917808ac/experience-kilpisjarvi-huskies-a-year-round-adventure-in-kilpisjarvi-arctic-lapland/"
+    }
+  ]
+}

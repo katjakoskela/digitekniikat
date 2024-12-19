@@ -1,135 +1,147 @@
 /* Yleinen tyylitiedosto */
-
 body {
-  font-family: 'Arial', sans-serif!important;
-  background-color: #e0f0f9!important; /* Pehmeä vaaleansininen, joka muistuttaa talven taivasta */
-  color: #2f3c56!important; /* Tummanharmaa teksti, joka on helppo lukea */
-  margin: 0!important;
-  padding: 0!important;
+  font-family: 'Arial', sans-serif;
+  background-color: #e9f5fc; /* Vaaleampi ja rauhoittava taustaväri */
+  color: #2b3e4d; /* Tumma, mutta pehmeä väri tekstille */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Parempi luettavuus */
 }
 
 h1, h2, h3, h4, h5 {
-  color: #1d3b57!important; /* Tumma sininen, joka muistuttaa Lapin talvista tunnelmaa */
-  font-weight: bold!important;
+  color: #10344f; /* Syvempi sininen otsikoille */
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus, button:focus {
+  outline: 2px dashed #81a8c3; /* Korostus saavutettavuutta varten */
+  outline-offset: 4px;
 }
 
 .navbar {
-  background-color: #2b3e4d!important; /* Tumma sininen, hieman harmaampi sävy */
+  background-color: #2b3e4d;
 }
 
 .navbar .navbar-brand {
-  color: #f1f9ff!important; /* Vaalea, lähes valkoinen väri, joka tuo mieleen lumen */
-  font-size: 1.5rem!important; /* Tehdään brändistä hieman isompi */
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #bdd6e7!important; /* Vaaleansininen teksti, joka erottuu hyvin tummasta taustasta */
-  font-size: 1.1rem!important; /* Tehdään linkeistä hieman suurempia */
+  color: #dce6f1;
+  font-size: 1.1rem;
 }
 
-.navbar .navbar-nav .nav-link:hover {
-  color: #a0b8cc!important; /* Pehmeämpi, hieman vaaleampi sininen hover-efekti */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: #ffffff; /* Selkeämpi hover-efekti */
 }
 
 section {
-  padding: 50px 0!important;
+  padding: 60px 15px;
 }
 
 .bg-light {
-  background-color: #e3f2fb!important; /* Pehmeä vaaleansininen, joka muistuttaa talvisia maisemia */
+  background-color: #edf6fb; /* Hieman vaaleampi tausta */
 }
 
 .card {
-  border: none!important;
-  box-shadow: 0 4px 12px rgba(0, 8, 32, 0.2)!important; /* Lievempi varjo, joka tuo esiin talviseen tunnelmaan */
-  border-radius: 12px!important; /* Kulmien pyöristys pehmeämmäksi */
-  overflow: hidden!important; /* Varmistaa, että kuvat eivät mene reunojen yli */
+  border: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .card-img-top {
-  width: 100%!important;
-  height: 250px!important;
-  object-fit: cover!important; /* Kuvan muotoilu, että se täyttää kortin ilman venymistä */
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .card-body {
-  background-color: #cfe4f7!important; /* Vaaleansininen tausta, joka korostaa talvista tunnelmaa */
-  border-radius: 0 0 12px 12px!important;
+  background-color: #f1f9ff; /* Hieman vaaleampi ja pehmeä tausta */
 }
 
 .card-title {
-  color: #004173!important; /* Tummansininen, joka on selkeä ja houkutteleva */
-  font-size: 1.2rem!important; /* Isompi fonttikoko otsikoille */
+  color: #0f3054;
+  font-size: 1.3rem;
 }
 
 .card-text {
-  color: #3b5c75!important; /* Vaaleampi sininen sävy, joka yhdistyy hyvin ympäristöön */
-  font-size: 1rem!important; /* Optimoitu koko tekstille */
+  color: #2b3e4d;
 }
 
 footer {
-  background-color: #2b3e4d!important; /* Tumma sininen tausta, joka sopii talviseen tunnelmaan */
-  color: #f1f9ff!important; /* Vaalea teksti, joka erottuu hyvin tummasta taustasta */
-  padding: 20px 0!important;
+  background-color: #2b3e4d;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
 }
 
 footer p {
-  margin: 0!important;
-  font-size: 14px!important;
+  margin: 0;
+  font-size: 0.9rem;
 }
 
 img {
-  border-radius: 12px!important; /* Pehmeämmät kulmat kuville */
+  border-radius: 12px;
 }
 
 button {
-  background-color: #a8c9db!important; /* Pehmeä vaaleansininen painikkeelle */
-  color: #1d3557!important; /* Tummansininen teksti, joka erottuu hyvin */
-  border: none!important;
-  padding: 12px 24px!important;
-  border-radius: 8px!important; /* Pyöristetyt kulmat painikkeelle */
-  font-size: 1rem!important;
-  cursor: pointer!important;
+  background-color: #5b9ecf;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #81a8c3!important; /* Lievempi tumma sininen hover-efekti */
-  color: #ffffff!important;
+  background-color: #3f89bd;
 }
 
 #kartta {
   height: 400px;
-  width: 50%;
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
 }
 
 /* Responsiivisuus */
 @media (max-width: 767px) {
   .navbar-nav {
-      text-align: center!important;
+    text-align: center;
   }
 
   .card {
-      margin-bottom: 20px!important;
-      border-radius: 12px!important; /* Pyöristetyt kulmat myös pienillä näytöillä */
-  }
-
-  .card-img-top {
-      height: auto!important;
+    margin-bottom: 20px;
   }
 
   .navbar .navbar-brand {
-      font-size: 1.3rem!important;
+    font-size: 1.5rem;
   }
 
   .navbar .navbar-nav .nav-link {
-      font-size: 1rem!important;
+    font-size: 1rem;
   }
 
   section {
-      padding: 30px 0!important; /* Vähemmän tilaa pienillä näytöillä */
+    padding: 30px 15px;
   }
 
   footer p {
-      font-size: 12px!important; /* Pienempi fonttikoko jalkapalstassa mobiilissa */
+    font-size: 0.8rem;
   }
 }

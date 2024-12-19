@@ -83,26 +83,26 @@ section {
 
 /* Yleinen haitarin tyyli */
 .accordion {
-  border: 1px solid #bdd6e7!important; /* Vaaleansininen reunus */
+  border: 1px solid #aacbdb!important; /* Tummempi vaaleansininen reunus */
   border-radius: 8px!important; /* Pehmeä pyöristys */
   overflow: hidden!important; /* Sisältö ei mene ulkopuolelle */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)!important; /* Hento varjo */
-  background-color: #f9fbfd!important; /* Lämmin vaaleansininen tausta */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)!important; /* Hieman voimakkaampi varjo */
+  background-color: #e5f2fb!important; /* Vaaleansininen tausta, hieman tummempi */
 }
 
 .accordion-header {
-  background-color: #e0f0f9!important; /* Vaaleansininen otsikkoalue */
+  background-color: #c9e2f5!important; /* Vaaleansininen otsikkoalue, hieman tummempi */
   padding: 12px 16px!important; /* Lisätään mukava sisennys */
   cursor: pointer!important; /* Kursorin vaihto osoittaa klikattavuutta */
   font-size: 1.1rem!important; /* Hiukan isompi fonttikoko */
   font-weight: bold!important;
-  color: #1d3b57!important; /* Tumma sininen teksti */
-  border-bottom: 1px solid #bdd6e7!important; /* Otsikoiden väliin linja */
+  color: #1d3b57!important; /* Tumma sininen teksti, parempi kontrasti */
+  border-bottom: 1px solid #aacbdb!important; /* Otsikoiden väliin linja, tummempi */
   transition: background-color 0.3s ease!important;
 }
 
 .accordion-header:hover {
-  background-color: #d1e6f3!important; /* Hover-efekti: hieman tummempi sininen */
+  background-color: #bdd6e7!important; /* Hover-efekti: hieman tummempi sininen */
 }
 
 .accordion-button {
@@ -114,18 +114,18 @@ section {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #bdd6e7!important; /* Korostus avatulle kohdalle */
+  background-color: #7ab6d6!important; /* Korostus avatulle kohdalle, tummempi sininen */
   color: #fff!important; /* Valkoinen teksti */
-  border-bottom: 1px solid #a0b8cc!important; /* Vaaleampi erotinlinja */
+  border-bottom: 1px solid #5f8ea0!important; /* Tummempi erotinlinja */
 }
 
 .accordion-body {
   padding: 16px!important; /* Sisällölle mukavasti tilaa */
-  background-color: #f9fbfd!important; /* Tausta säilyy pehmeän sinisenä */
+  background-color: #e5f2fb!important; /* Tausta säilyy pehmeän sinisenä */
   font-size: 1rem!important; /* Mukava tekstin luettavuus */
   color: #2f3c56!important; /* Tummanharmaa, helposti luettava teksti */
   line-height: 1.6!important; /* Miellyttävä riviväli */
-  border-top: 1px solid #bdd6e7!important; /* Erotinlinja kevyesti */
+  border-top: 1px solid #aacbdb!important; /* Erotinlinja kevyesti, mutta tummempi */
 }
 
 /* Responsiivisuus pienille näytöille */

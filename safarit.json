@@ -8,8 +8,8 @@
         "adult": 159,
         "child": 129
       },
-      "duration": "2 hours",
-      "description": "Experience the thrill of a husky sled ride through the snowy landscapes of Levi. Includes winter clothing and hot drinks.",
+      "duration": "2 tuntia",
+      "description": "Koe Husky rekiajelun jännitys Levillä lumisten maisemien halki. Sisältää talvivaatteet ja kuumat juomat.",
       "url": "https://levi.northernlightsvillage.com/experiences/husky"
     },
     {
@@ -20,8 +20,8 @@
         "adult": 180,
         "child": 140
       },
-      "duration": "1.5 hours",
-      "description": "Join our huskies for an unforgettable journey through the Arctic landscapes. Includes transfers, winter clothing, and hot drinks.",
+      "duration": "1,5 tuntia",
+      "description": "Liity huskyjemme kanssa unohtumattomalle matkalle arktisiin maisemiin. Sisältää kuljetukset, talvivaatteet ja kuumat juomat.",
       "url": "https://www.levihuskypark.fi/en"
     },
     {
@@ -32,8 +32,8 @@
         "adult": 215,
         "child": 175
       },
-      "duration": "3 hours",
-      "description": "Explore the wilderness of Ylläs with our friendly huskies. Includes a visit to the husky kennel and hot drinks.",
+      "duration": "3 tuntia",
+      "description": "Tutustu Ylläksen erämaahan ystävällisten huskyjemme kanssa. Sisältää vierailun huskykeskuksessa ja kuumat juomat.",
       "url": "https://powerun.fi/"
     },
     {
@@ -44,8 +44,8 @@
         "adult": 200,
         "child": 160
       },
-      "duration": "2.5 hours",
-      "description": "Enjoy a thrilling husky sled ride through the beautiful landscapes of Ylläs. Includes winter clothing and hot drinks.",
+      "duration": "2,5 tuntia",
+      "description": "Nauti vauhdikkaasta Husky rekiajelusta Ylläksen upeissa maisemissa. Sisältää talvivaatteet ja kuumat juomat.",
       "url": "https://yllas.fi/en/experience/husky-safari-in-the-wilderness/"
     },
     {
@@ -56,8 +56,8 @@
         "adult": 220,
         "child": 180
       },
-      "duration": "1.5 hours",
-      "description": "Join our huskies for an exciting adventure through the snowy forests of Kilpisjärvi. Includes winter clothing and hot drinks.",
+      "duration": "1,5 tuntia",
+      "description": "Liity huskyjemme kanssa jännittävälle seikkailulle Kilpisjärven lumisiin metsiin. Sisältää talvivaatteet ja kuumat juomat.",
       "url": "https://destinationkilpisjarvi.com/en_US/guided-experiences-winter/huskysledding-kilpisjarvi"
     },
     {
@@ -68,8 +68,8 @@
         "adult": 230,
         "child": 190
       },
-      "duration": "2 hours",
-      "description": "Enjoy a husky sled ride through the stunning landscapes of Kilpisjärvi. Includes winter clothing and hot drinks.",
+      "duration": "2 tuntia",
+      "description": "Nauti Husky rekiajelusta Kilpisjärven upeissa maisemissa. Sisältää talvivaatteet ja kuumat juomat.",
       "url": "https://www.visitfinland.com/en/product/2a137153-9457-4509-9d77-f48c917808ac/experience-kilpisjarvi-huskies-a-year-round-adventure-in-kilpisjarvi-arctic-lapland/"
     }
   ]

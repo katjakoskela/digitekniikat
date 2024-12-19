@@ -8,11 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="tyylit.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <!-- Google API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCepqxW3FJaVFrrYdaOQ-a8lVXunLldrzg&callback=initMap" async defer></script>
 </head>
 <body>
-
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -26,13 +23,12 @@
             <a class="nav-link active" href="#tervetuloa">Tervetuloa</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#aktiviteetit" id="aktiviteetitDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aktiviteetit</a>
+            <a class="nav-link dropdown-toggle" href="#" id="aktiviteetitDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aktiviteetit</a>
             <ul class="dropdown-menu" aria-labelledby="aktiviteetitDropdown">
               <li><a class="dropdown-item" href="#luistelu">Luistelu luonnonjäällä</a></li>
               <li><a class="dropdown-item" href="#huskysafari">Huskysafari</a></li>
               <li><a class="dropdown-item" href="#vaellus">Vaellus</a></li>
             </ul>
-          </li>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#ruoka">Ruokailu</a>
@@ -55,198 +51,65 @@
   <section id="aktiviteetit" class="py-5">
     <div class="container">
       <h2 class="text-center mb-4">Aktiviteetit</h2>
-
-      <!-- Haitarimalli (Accordion) -->
-<div class="accordion-item">
-
-  <!-- Luistelu-->
-  <h2 class="accordion-header" id="luistelu">
-    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#luistelu" aria-expanded="true" aria-controls="luistelu">
-      Luistelun luonnonjäällä
-    </button>
-  </h2>
-  <div id="luistelu" class="accordion-collapse collapse show" aria-labelledby="luistelu" data-bs-parent="#aktiviteettiAccordion">
-    <div class="accordion-body">
-      <p>Nauti maailman upeimmista luonnonjäistä Lapissa. Tässä muutama esimerkki Lapin kauniistajärvistä.</p>
-
-      <!-- Google Maps kartat -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11975.397852415428!2d23.625776619744613!3d67.96417906349153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45d3d53a9b393afb%3A0xe07c5858d05aadee!2sMuonionj%C3%A4rvi!5e0!3m2!1sfi!2sfi!4v1734614173103!5m2!1sfi!2sfi" 
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2303602.7586608035!2d23.277676730126526!3d68.1613236364366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45cce90263d19871%3A0xc72dd389f16f651a!2sInarij%C3%A4rvi!5e0!3m2!1sfi!2sfi!4v1734614008598!5m2!1sfi!2sfi" 
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d330808.7872639428!2d25.081428237098724!3d66.50038594290156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b5022b87af19b%3A0xef0e6b5fa34353d8!2sOlkkaj%C3%A4rvi!5e0!3m2!1sfi!2sfi!4v1734614063787!5m2!1sfi!2sfi"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d731495.6916747725!2d18.322293667791616!3d69.01723454446662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45daa8232d317653%3A0x97d52eef89e4a46c!2sKilpisj%C3%A4rvi!5e0!3m2!1sfi!2sfi!4v1734614110380!5m2!1sfi!2sfi" 
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-</div>
-
-  <!-- Huskysafari -->
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="huskysafari">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#huskysafari" aria-expanded="false" aria-controls="huskysafari">
-        Huskysafari
-      </button>
-    </h2>
-    <div id="huskysafari" class="accordion-collapse collapse" aria-labelledby="huskysafari" data-bs-parent="#aktiviteettiAccordion">
-      <div class="accordion-body">
-        <p>Koe vauhdikas huskysafari Lapin upeissa lomakohteissa.</p>
-        <h1>Huskysafarit</h1>
-        
-        <!-- Paikkojen valinta -->
-        <div>
-          <button id="leviButton">Levi</button>
-          <button id="yllasButton">Ylläs</button>
-          <button id="kilpisjarviButton">Kilpisjärvi</button>
+      <div class="accordion" id="aktiviteettiAccordion">
+        <!-- Luistelu -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingLuistelu">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLuistelu" aria-expanded="true" aria-controls="collapseLuistelu">
+              Luistelu luonnonjäällä
+            </button>
+          </h2>
+          <div id="collapseLuistelu" class="accordion-collapse collapse show" aria-labelledby="headingLuistelu" data-bs-parent="#aktiviteettiAccordion">
+            <div class="accordion-body">
+              <p>Nauti maailman upeimmista luonnonjäistä Lapissa. Tässä muutama esimerkki Lapin kauniista järvistä.</p>
+              <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
         </div>
 
-        <!-- Safarit näytetään tänne -->
-        <div id="vastaus"></div>
-        <script src="safarit.js"></script>
+        <!-- Huskysafari -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingHuskysafari">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHuskysafari" aria-expanded="false" aria-controls="collapseHuskysafari">
+              Huskysafari
+            </button>
+          </h2>
+          <div id="collapseHuskysafari" class="accordion-collapse collapse" aria-labelledby="headingHuskysafari" data-bs-parent="#aktiviteettiAccordion">
+            <div class="accordion-body">
+              <p>Koe vauhdikas huskysafari Lapin upeissa lomakohteissa.</p>
+              <div>
+                <button id="leviButton">Levi</button>
+                <button id="yllasButton">Ylläs</button>
+              </div>
+              <div id="vastaus"></div>
+              <script src="safarit.js"></script>
+            </div>
+          </div>
+        </div>
+        <!-- Lisää aktiviteetteja -->
       </div>
     </div>
-  </div>
-
-        <!-- Vaellus -->
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="vaellus">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vaellus" aria-expanded="false" aria-controls="vaellus">
-        Vaellus
-      </button>
-    </h2>
-    <div id="vaellus" class="accordion-collapse collapse" aria-labelledby="vaellus" data-bs-parent="#aktiviteettiAccordion">
-      <div class="accordion-body">
-        <p>Varaa ainutlaatuinen opastettu vaellusmatka!</p>
-        <!-- Vaelluslomake -->
-        <form action="#" method="POST" class="reservation-form">
-          <div class="form-group">
-            <label for="reitit">Valitse vaellusreitti:</label>
-            <select id="reitit" name="reitit" class="form-control" required>
-              <option value="valitse">Valitse</option>
-              <option value="kungsleden">Kungsleden</option>
-              <option value="pallas_yllastunturi">Pallas-Yllästunturi</option>
-              <option value="luosto">Luosto</option>
-              <option value="rovanemi_tunturi">Rovaniemi Tunturi</option>
-              <option value="halti">Halti</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="paivamaara">Valitse vaelluspäivämäärä:</label>
-            <input type="date" id="paivamaara" name="paivamaara" class="form-control" required>
-          </div>
-
-          <div class="form-group">
-            <label for="osallistujat">Osallistujamäärä:</label>
-            <input type="number" id="osallistujat" name="osallistujat" class="form-control" min="1" max="10" required>
-          </div>
-
-          <div class="form-group">
-            <label for="erityisruokavaliot">Muuta huomioitavaa (valinnainen):</label>
-            <textarea id="muuta" name="muuta" class="form-control" rows="3"></textarea>
-          </div>
-
-          <div class="form-group">
-            <label for="sahkoposti">Sähköposti:</label>
-            <textarea id="mail" name="mail" class="form-control" rows="1" required></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary">Varaa vaellus</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-        </section>
-        
   </section>
 
-  <!-- Ravintolat ja Ruokavinkit -->
-<section id="ruoka" class="bg-light py-5">
-  <div class="container">
-    <h2 class="text-center mb-4">Ruokavinkit ja Ravintolat</h2>
-    <p class="text-center">Lappi on täynnä herkullisia paikallisia ruokia ja tunnelmallisia ravintoloita. Tässä muutama vinkki, mitä kannattaa maistaa ja missä syödä:</p>
-  
-    <h3 class="text-center mt-5 mb-4">Lapin Ruokavinkit</h3>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="poronkaristys.png" class="card-img-top" alt="Poronkäristys">
-          <div class="card-body">
-            <h5 class="card-title">Poronkäristys</h5>
-            <p class="card-text">Perinteinen lappilainen herkku, joka valmistetaan poronlihasta. Tarjoillaan usein muusin tai perunoiden kera.</p>
-            <a href="#" class="btn btn-primary">Lue lisää</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="kalakukko.png" class="card-img-top" alt="Kalakukko">
-          <div class="card-body">
-            <h5 class="card-title">Kalakukko</h5>
-            <p class="card-text">Tämä perinteinen kalapasteija on täynnä kalaa, lihaa ja mausteita, ja se on Lapin alueen suosittu ruokalaji.</p>
-            <a href="#" class="btn btn-primary">Lue lisää</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="kalakeitto.png" class="card-img-top" alt="Lohikeitto">
-          <div class="card-body">
-            <h5 class="card-title">Lohikeitto</h5>
-            <p class="card-text">Tämä herkullinen kalakeitto on täydellinen talvinen ruoka. Lohta, perunoita, kermaa ja tilliä – makuelämys, joka vie kielen mennessään.</p>
-            <a href="#" class="btn btn-primary">Lue lisää</a>
+  <!-- Ruoka -->
+  <section id="ruoka" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Ruokavinkit ja Ravintolat</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="poronkaristys.png" class="card-img-top" alt="Poronkäristys">
+            <div class="card-body">
+              <h5 class="card-title">Poronkäristys</h5>
+              <p>Perinteinen lappilainen herkku...</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="row mt-4">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="sky.png" class="card-img-top" alt="Lapin Herkkukahvila">
-          <div class="card-body">
-            <h5 class="card-title">Sky Kitchen & View</h5>
-            <p class="card-text">Vuolaan joen ääreltä löytyneet tuoreet koivunlehdet, Sallan kivisillä tuntureilla vaeltanut poro ja maan pohjoisin kuha aavistuksen riitteisestä järvivedestä ovat kaikki ammentaneet puhdasta ja raikasta pohjoisen maaperää, imeneet itseensä kaiken sen voiman mitä taivaankannen valo on antanut. Tuoksut, maut, pakkanen, aurinko, valo ovat kaikki syitä ruokalistamme erityiseen sisältöön.</p>
-            <a href="https://www.kitchensky.fi" class="btn btn-primary">Lue lisää</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="elsa.png" class="card-img-top" alt="Revontuliravintola">
-          <div class="card-body">
-            <h5 class="card-title">Ravintola Elsa</h5>
-            <p class="card-text">Suomen puhtaassa maassa viljelty vilja löytää leivän muodon. Kotimaiset luomukananmunat muuttuvat pastaksi. Muoniosta kalastettu siika, syksyllä savustettu särki. Jäätelö tehdään jokaisena iltana Lapin lehmän maidosta. On aika kaivaa esille perinteiset reseptit ja tuoda ne tähän päivään. Keittiömestari Sirly Ylläsjärvi on viettänyt Lapissa 14 vuotta, ja menu on rakennettu niiden oppien mukaan.</p>
-            <a href="https://restaurantelsa.fi" class="btn btn-primary">Lue lisää</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="kota.png" class="card-img-top" alt="Lapin Joulupöytä">
-          <div class="card-body">
-            <h5 class="card-title">Cafe & Bar Kota</h5>
-            <p class="card-text">Laskukansan olohuone Levin eturinteen juurella aamusta iltamyöhään joka päivä! Kota hemmottelee kävijäänsä kahvilana, after ski -baarina sekä viini-, cocktail-, ja lounasravintolana kauden jokaisena päivänä. <br> Ravintola Kodan mukavilla sohvilla viihtyy niin perheen pienimmät kuin jo kokeneemmatkin Levin kävijät. Kodassa voi nauttia kattavan ruokatarjonnan lisäksi lämmintä kaakaota, tuoreista raaka-aineista valmistettuja drinkkejä, laadukkaita oluita, viinejä, sekä kuumia juomia.</p>
-            <a href="https://www.levi.fi/palvelut/cafe-ja-bar-kota/" class="btn btn-primary">Lue lisää</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2024 LappiaLappinen.</p>
-  </footer>
-
-  <!-- Bootstrap 5 JS and dependencies -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
